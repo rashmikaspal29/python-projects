@@ -119,7 +119,7 @@ def instructions():
     window = GraphWin("SPACE BATTLE 101", 600,600)
     firstBackGround = Image(Point(300, 300), "stars.gif")
     firstBackGround.draw(window)
-    directions = Text(Point(300, 300),f'''Fly the spaceship, gain the fuel and avoid the asteroids
+    directions = Text(Point(300, 300),f'''Fly the spaceship, gain the fuel and avoid the asteroids.
     Use arrow keys to maneuver your spaceship.
     If you collide with an asteroid, you lose {LOSE_POINTS} points.
      You earn {WIN_POINTS} point for each fuel you catch.
